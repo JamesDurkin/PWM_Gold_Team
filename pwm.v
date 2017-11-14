@@ -1,5 +1,5 @@
 module pwm(clk, rst_n, period, pulse_width, enable, pwm_out);
-parameter WIDTH = 16;
+parameter WIDTH = 8;
 input wire clk, rst_n;
 input wire[WIDTH - 1:0] period;
 input wire[WIDTH - 1:0] pulse_width;
@@ -20,7 +20,7 @@ begin
 
 	begin
 
-		ticks_d = 16'b0;
+		ticks_d = 8'b0;
 
 	end
 
@@ -36,7 +36,7 @@ begin
 
 	begin
 
-		ticks_q <= 16'b0;
+		ticks_q <= 8'b0;
 
 	end
 
