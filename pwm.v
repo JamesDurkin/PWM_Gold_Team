@@ -52,7 +52,7 @@ begin
 
 end
 
-assign pwm_out = pwm_q;
+assign pwm_out = (enable == 1)?pwm_q:1'b0;
 
 endmodule
 

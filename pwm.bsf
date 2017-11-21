@@ -68,7 +68,7 @@ agreement for further details.
 	)
 	(parameter
 		"WIDTH"
-		"16"
+		"8"
 		""
 		(type "PARAMETER_SIGNED_DEC")	)
 	(drawing
